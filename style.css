@@ -1,0 +1,112 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#conteiner1 {
+    text-align: center;
+    width: 1250px;
+    height: 600px;
+    padding: 10px ;
+    border: 10px;
+}
+
+.conteudo1 {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    padding-top: 80px;
+    padding-left: 120px;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 100px;
+    height: 50px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+button:hover{
+    border-color: rgb(180, 180, 180);
+}
+
+body {
+    background-image: url(arvorecor3.jpg);
+    background-repeat:no-repeat;
+}
+
+#conteiner2 {
+    border-radius: 10px;
+    justify-content: flex-start;
+    display:flex;
+    height: 625px;
+    width: 1285px;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgba(112, 112, 112, 0.664);
+    background-image: linear-gradient(100deg, #738048, #3a4123 );
+}
+
+.conteudo2 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    justify-content: flex-start;
+    width: 700px;
+    overflow-wrap: break-word;
+}
+
+.titulomedio2 {
+    margin-top: 30px;
+}
+
+.conteudo2-video {
+    width: 500px;
+    padding-left: 25px;
+}
+
+.h1video {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+#conteiner3 {
+    height: 550px;
+    width: 1383px;
+    background-image: linear-gradient(100deg, #738048, rgb(58, 65, 35));
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo3 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-top: 90px;
+    width: 700px;
+}
+
+.h2conteiner3 {
+    padding-top: 30px;
+}
+
+.img2 {
+   padding-top: 150px;
+}
+
